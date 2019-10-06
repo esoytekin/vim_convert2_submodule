@@ -18,12 +18,6 @@ git submodule update --init --recursive
 
 ## usage
 
-by default executes in ~/.vim or %USERPROFILE%/vimfolder depending on the operating system
+by default executes in `~/.vim` or `%USERPROFILE%/vimfolder` depending on the operating system
 
 you can give custom path using `--path` flag
-
-after executing program run `git submodule update --init --recursive`
-
-to initialize all submodules
-
-
