@@ -11,7 +11,7 @@ Converts plugins under vim bundle folder to git submodule folders
 
 ## why should i use it?
 
-- it is more managable to keep plugin as submodules. this way you can update your modules with single git command
+- it is more managable to keep plugins as submodules. this way you can update your modules with single git command
 ```git
 git submodule update --init --recursive
 ```
