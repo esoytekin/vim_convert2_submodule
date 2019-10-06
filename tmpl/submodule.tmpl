@@ -1,0 +1,5 @@
+{{range .Items}}[submodule "bundle/{{.Name}}"]
+        path = bundle/{{.Name}}
+        url = {{.URL}}
+        ignore = untracked
+{{end}}
